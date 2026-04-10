@@ -1,0 +1,22 @@
+{
+  "status": "healthy",
+  "timestamp": "2024-10-27T10:30:00Z",
+  "serviceName": "api-service",
+  "version": "1.2.3",
+  "uptimeSeconds": 3600,
+  "dependencies": {
+    "database": {
+      "status": "healthy",
+      "responseTimeMs": 15
+    },
+    "cache": {
+      "status": "degraded",
+      "responseTimeMs": 500,
+      "error": "Cache latency high"
+    }
+  },
+  "metrics": {
+    "requestsPerSecond": 125.5,
+    "averageResponseTimeMs": 25
+  }
+}
